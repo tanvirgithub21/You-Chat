@@ -1,9 +1,14 @@
 import './App.css';
+import ChatBox from './Component/ChatBox';
+import SideBar from './Component/SideBar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Start Your-Chat</h1>
+    <div className="App grid place-items-center h-screen">
+      <div className='flex h-screen w-screen'>
+        <SideBar />
+        <ChatBox />
+      </div>
     </div>
   );
 }
