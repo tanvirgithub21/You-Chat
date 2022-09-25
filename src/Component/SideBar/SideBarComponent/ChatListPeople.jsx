@@ -11,6 +11,7 @@ const ChatListPeople = () => {
         <Avatar
           alt="Remy Sharp"
           src="https://i.pinimg.com/564x/e2/46/4a/e2464a7027458279370c1f3a9a9f9c21.jpg"
+          sx={{ width: 56, height: 56 }}
         />
       </div>
       {/* Avatar Description */}

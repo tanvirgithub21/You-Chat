@@ -1,9 +1,10 @@
 import React from "react";
+import ChatBoxHeader from "./ChatBoxComponent/ChatBoxHeader";
 
 const ChatBox = () => {
   return (
-    <div className="flex flex-col flex-[0.70] p-4">
-      <h1>This is Chat Box</h1>
+    <div className="flex flex-col flex-[0.70] py-4 pr-4">
+      <ChatBoxHeader />
     </div>
   );
 };
