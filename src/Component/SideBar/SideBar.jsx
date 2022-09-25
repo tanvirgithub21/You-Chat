@@ -5,17 +5,26 @@ import ChatListSearch from "./SideBarComponent/ChatListSearch";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col flex-[0.25] min-w-[16rem] max-h-full p-4">
+    <div className="flex flex-col flex-[0.30] min-w-[16rem] max-h-screen py-4 pl-4">
       <ChatListHeader />
       <ChatListSearch />
-      <ChatListPeople />
-      <ChatListPeople />
-      <ChatListPeople />
-      <ChatListPeople />
-      <ChatListPeople />
-      <ChatListPeople />
-      <ChatListPeople />
-      <ChatListPeople />
+      <div className="h-full overflow-y-auto">
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+        <ChatListPeople />
+      </div>
     </div>
   );
 };
