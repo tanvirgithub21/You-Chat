@@ -6,7 +6,7 @@ import { Avatar, IconButton } from "@material-ui/core";
 
 const ChatListHeader = () => {
   return (
-    <div className="peopleBox flex justify-between items-center px-2 bg-gray-100 min-h-[60px] ">
+    <div className="peopleBox flex justify-between items-center px-2 bg-[#F0F2F5] min-h-[60px] ">
       {/* avatar */}
       <div>
         <Avatar

@@ -5,7 +5,7 @@ import "./SideBar.css";
 
 const ChatListPeople = () => {
   return (
-    <div className="peopleBox flex justify-start items-center p-2 border-b-2 overflow-hidden hover:bg-gray-100 ease-in-out duration-150 cursor-pointer">
+    <div className="peopleBox flex justify-start items-center p-2 border-b-2 overflow-hidden hover:bg-[#F0F2F5] ease-in-out duration-150 cursor-pointer">
       {/* Avatar  */}
       <div>
         <Avatar

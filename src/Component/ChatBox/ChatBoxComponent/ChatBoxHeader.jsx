@@ -5,7 +5,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 const ChatBoxHeader = () => {
   return (
-    <div className="peopleBox flex justify-between items-center px-2 bg-gray-100 min-h-[60px] border-l-2 border-gray-300 pl-4">
+    <div className="peopleBox flex justify-between items-center px-2 bg-[#F0F2F5] min-h-[60px] border-l-2 border-gray-300 pl-4">
       {/* avatar */}
       <div className="flex justify-start items-center">
         <Avatar
