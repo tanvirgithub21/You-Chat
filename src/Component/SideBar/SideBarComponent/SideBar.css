@@ -1,0 +1,4 @@
+.peopleBox:hover .downArrow {
+  left: 0;
+  transition: ease-in-out 0.3s;
+}

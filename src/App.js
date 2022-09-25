@@ -4,8 +4,8 @@ import SideBar from './Component/SideBar/SideBar';
 
 function App() {
   return (
-    <div className="App grid place-items-center h-screen">
-      <div className='flex h-screen w-screen'>
+    <div className="App grid place-items-center h-screen w-screen bg-gray-200">
+      <div className='flex h-[97%] w-[98%] bg-white'>
         <SideBar />
         <ChatBox />
       </div>
