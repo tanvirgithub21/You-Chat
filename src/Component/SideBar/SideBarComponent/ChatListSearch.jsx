@@ -5,7 +5,7 @@ import { IconButton } from "@material-ui/core";
 
 const ChatListSearch = () => {
   return (
-    <div className="flex items-center border-b-2">
+    <div className="flex items-center border-b-2 ml-4">
       <div className="p-2 bg-[#F0F2F5] flex items-center justify-start rounded-lg w-full">
         <SearchIcon className="mr-2" />
         <input

@@ -5,7 +5,7 @@ import ChatListSearch from "./SideBarComponent/ChatListSearch";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col flex-[0.30] min-w-[16rem] max-h-screen py-4 pl-4">
+    <div className="flex flex-col flex-[0.30] min-w-[16rem] max-h-screen">
       <ChatListHeader />
       <ChatListSearch />
 

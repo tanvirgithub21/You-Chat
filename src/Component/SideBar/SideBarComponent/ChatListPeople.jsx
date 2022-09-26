@@ -5,12 +5,12 @@ import "./SideBar.css";
 
 const ChatListPeople = () => {
   return (
-    <div className="peopleBox flex justify-start items-center p-2 border-b-2 overflow-hidden hover:bg-[#F0F2F5] ease-in-out duration-150 cursor-pointer">
+    <div className="peopleBox flex justify-start items-center p-2 border-b-2 overflow-hidden hover:bg-[#F0F2F5] ease-in-out duration-150 cursor-pointer pl-3">
       {/* Avatar  */}
       <div>
         <Avatar
           alt="Remy Sharp"
-          src="https://i.pinimg.com/564x/e2/46/4a/e2464a7027458279370c1f3a9a9f9c21.jpg"
+          src="https://i.pinimg.com/564x/82/5b/3d/825b3d123a0de59c56cb5ba329ec6593.jpg"
           sx={{ width: 56, height: 56 }}
         />
       </div>
