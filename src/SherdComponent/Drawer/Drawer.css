@@ -1,0 +1,10 @@
+.drawer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  background-image: url(../../Images/backgroun-drawer.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}

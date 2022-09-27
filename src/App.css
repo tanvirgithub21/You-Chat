@@ -17,8 +17,8 @@ body {
 .app {
   background-image: url(./Images/backgroun.svg);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: top;
+  background-size: 100%;
 }
 
 ::-webkit-scrollbar {

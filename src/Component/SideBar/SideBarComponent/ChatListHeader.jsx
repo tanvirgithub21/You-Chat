@@ -3,6 +3,7 @@ import DataUsageIcon from "@material-ui/icons/DataUsage";
 import MessageIcon from "@material-ui/icons/Message";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import { Avatar, IconButton } from "@material-ui/core";
+import Drawer from "../../../SherdComponent/Drawer/Drawer";
 
 const ChatListHeader = () => {
   return (
@@ -27,6 +28,8 @@ const ChatListHeader = () => {
           <MoreVertIcon />
         </IconButton>
       </div>
+
+      <Drawer />
     </div>
   );
 };
